@@ -39,3 +39,14 @@ a {
     bottom: 0px;
     border: 2px solid black;
 }
+
+
+/* - - - -- - -  Game Cards - - - - - - - */ 
+
+.card {
+    float: left;
+    margin: 10px;
+    height: 200px;
+    width: 150px;
+    background: lightblue;
+    }
