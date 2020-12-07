@@ -81,6 +81,7 @@ $(document).ready(function () {
         checkWin: function() {
             if($(".unmatched").length === 0) {
                 alert("Welldone, you won!!!!!!!!");
+                location.reload();
             }
         } 
 
@@ -88,3 +89,7 @@ $(document).ready(function () {
     app.init();
 
 });
+
+
+// -------------------- Calculator ---------------------------------
+
